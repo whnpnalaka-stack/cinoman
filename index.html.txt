@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TBM Natural Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="TBM Logo">
+            </div>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premium Ceylon Cinnamon From Sri Lanka</h1>
+            <p>Pure • Natural • Export Quality</p>
+            <button onclick="showMessage()">Explore Products</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About TBM Natural Products</h2>
+        <p>
+            We provide premium-quality Ceylon Cinnamon and natural products
+            sourced directly from Sri Lanka's finest plantations.
+        </p>
+    </section>
+
+    <section class="products">
+        <h2>Our Products</h2>
+
+        <div class="product-container">
+
+            <div class="card">
+                <h3>Cinnamon Sticks</h3>
+                <p>Premium hand-selected Ceylon cinnamon sticks.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cinnamon Powder</h3>
+                <p>Finely ground pure cinnamon powder.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cinnamon Tea</h3>
+                <p>Natural wellness tea made from cinnamon.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cinnamon Chips</h3>
+                <p>Ideal for extraction and food processing.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 TBM Natural Products (PVT) Ltd</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
